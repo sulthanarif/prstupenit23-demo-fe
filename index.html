@@ -13,8 +13,7 @@
 
 <body>
     <header class="header">
-<!--         <img alt="Summarecon Logo" height="40" src="assets/Summarecon_Agung 1.svg" width="150" /> -->
-        <img alt="Sorry! We can't display logo before launch this website" height="40" title="Sorry! We can't display logo before launch this website" src="assets/img.png" width="150" /> 
+        <img alt="Summarecon Logo" height="40" src="assets/Summarecon_Agung 1.svg" width="150" />
         <nav>
             <a href="#">
                 Scan Files
@@ -40,8 +39,8 @@
                     Nama Project
                 </h2>
                 <input placeholder="Tulis nama projek" type="text" id="projectName" />
-            </div>
-
+                </div>
+           
             <h2>
                 <i class="fas fa-file-upload">
                 </i>
@@ -60,15 +59,10 @@
                 *Mendukung file PDF (Maximal 20Mb per file, maksimal 20 file)
             </p>
             <p class="error-message" id="errorMessage"></p>
-
-            <div class="button-container">
-                <button id="scanButton">
-                    Scan File
-                </button>
-                <button id="removeButton" class="remove">
-                    Remove
-                </button>
-            </div>
+            <button id="scanButton">
+                Scan File
+            </button>
+            <!-- Preview Transmittal Container -->
             <div class="preview-transmittal" id="previewTransmittal">
                 <h3>Preview Transmittal</h3>
                 <div class="field">
@@ -90,11 +84,12 @@
 
                 <div class="pagination">
                     <button id="prevBtn">
-                        < </button>
-                            <span id="pageInfo">.</span>
-                            <button id="nextBtn">
-                                >
-                            </button>
+                        <
+                    </button>
+                    <span id="pageInfo">.</span>
+                    <button id="nextBtn">
+                       >
+                    </button>
                 </div>
                 <div class="button-container">
                     <button id="exportButton">Save & Export to CSV</button>
